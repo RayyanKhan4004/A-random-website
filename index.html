@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body  class="bg-slate-700  text-gray-300 " >
+ <!-- nav bar section -->
+
+ <nav class=" bg-gray-900 fixed w-full z-20 top-0 start-0 border-b  border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+       
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Flowbite</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <a href="GetStarted.html" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</a>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  bg-gray-800 md:bg-gray-900 border-gray-700">
+        <li>
+          <a href="index.html" class="block py-2 px-3  rounded  md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:dark:hover:bg-transparent border-gray-700" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="whyUs.html" class="block py-2 px-3  rounded  md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:dark:hover:bg-transparent border-gray-700">About</a>
+        </li>
+        <li>
+          <a href="Services.html" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0  text-white :hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent border-gray-700">Services</a>
+        </li>
+        <li>
+          <a href="Contact.html" class="block py-2 px-3  rounded  md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 text-white hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent border-gray-700">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+<!-- hero section -->
+<div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background Image" class="object-cover object-center w-full h-full" />
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+    </div>
+    
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+      <h1 class="text-5xl font-bold leading-tight mb-4">Welcome to Our Awesome Website</h1>
+      <p class="text-lg text-gray-300 mb-8">Discover amazing features and services that await you.</p>
+      <a href="#" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
+    </div>
+  </div>
+  <!-- stats -->
+
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 py-8">
+
+
+      <div
+          class="flex flex-col justify-center items-center gap-2 border border-dashed border-gray-500 p-4 rounded-md h-32">
+          <div class="flex gap-2 items-center">
+              <span class="font-bold text-4xl">20</span>
+              <svg class="w-8 h-8 opacity-70" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m6.75 12l-3-3m0 0l-3 3m3-3v6m-1.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z">
+                  </path>
+              </svg>
+          </div>
+          <span class="font-semibold opacity-70 text-sm text-center">Documents Contributed</span>
+      </div>
+    
+      <div
+          class="flex flex-col justify-center items-center gap-2 border border-dashed border-gray-500 p-4 rounded-md h-32">
+          <div class="flex gap-2 items-center">
+              <span class="font-bold text-4xl">5k</span>
+              <svg class="w-8 h-8 opacity-70" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z">
+                  </path>
+              </svg>
+    
+          </div>
+          <span class="font-semibold opacity-70 text-sm text-center">Thanks Received</span>
+      </div>
+    
+      <div
+          class="flex flex-col justify-center items-center gap-2 border border-dashed border-gray-500 p-4 rounded-md h-32">
+          <div class="flex gap-2 items-center">
+              <span class="font-bold text-4xl">34K</span>
+              <svg class="w-8 h-8 opacity-70" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+              </svg>
+          </div>
+          <span class="font-semibold opacity-70 text-sm text-center">Helped students</span>
+      </div>
+    
+      <div
+          class="md:col-start-2 lg:col-auto flex flex-col justify-center items-center gap-2 border border-dashed border-gray-500 p-4 rounded-md h-32">
+          <div class="flex gap-2 items-center">
+              <span class="font-bold text-4xl">3</span>
+              <svg class="w-8 h-8 opacity-70" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+              </svg>
+    
+          </div>
+          <span class="font-semibold opacity-70 text-sm text-center">Highest Rank</span>
+      </div>
+    
+    </div>
+
+
+
+  </div>
+
+ <!--  gallery -->
+<div class="bg-gray-300 h-auto  mb-6" >
+
+
+
+    <div class="bg-gray-800  py-6 sm:py-8 lg:py-12">
+       <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+           <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+               <div class="flex items-center gap-12">
+                   <h2 class="text-2xl font-bold  lg:text-3xl text-white">Gallery</h2>
+    
+                   <p class="hidden max-w-screen-sm  text-gray-300 md:block">
+                       This is a section of some simple filler text,
+                       also known as placeholder text. It shares some characteristics of a real written text.
+                   </p>
+               </div>
+    
+               <a href="#"
+                   class="inline-block rounded-lg border  bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
+                   More
+               </a>
+           </div>
+    
+           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+               <!-- image - start -->
+               <a href="#"
+                   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                   <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                   <div
+                       class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                   </div>
+    
+                   <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
+               </a>
+               <!-- image - end -->
+    
+               <!-- image - start -->
+               <a href="#"
+                   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                   <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                   <div
+                       class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                   </div>
+    
+                   <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+               </a>
+               <!-- image - end -->
+    
+               <!-- image - start -->
+               <a href="#"
+                   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                   <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                   <div
+                       class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                   </div>
+    
+                   <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+               </a>
+               <!-- image - end -->
+    
+               <!-- image - start -->
+               <a href="#"
+                   class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                   <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                   <div
+                       class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                   </div>
+    
+                   <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+               </a>
+               <!-- image - end -->
+           </div>
+       </div>
+    </div>
+</div>
+
+<!-- //////      Why us?     \\\\\\ -->
+
+<div class="bg-black"></div>
+
+    <section id="features"
+        class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30">
+
+
+        <div class="relative mx-auto max-w-5xl text-center">
+            <span class="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
+            Why choose us
+            </span>
+            <h2
+                class="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+                Build a Website That Your Customers Love
+            </h2>
+            <p
+                class="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
+                Our templates allow for maximum customization. No technical skills required – our intuitive design tools
+                let
+                you get the job done easily.
+            </p>
+        </div>
+
+
+        <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+                <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                    style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-color-swatch" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19 3h-4a2 2 0 0 0 -2 2v12a4 4 0 0 0 8 0v-12a2 2 0 0 0 -2 -2"></path>
+                        <path d="M13 7.35l-2 -2a2 2 0 0 0 -2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l9 9"></path>
+                        <path d="M7.3 13h-2.3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h12"></path>
+                        <line x1="17" y1="17" x2="17" y2="17.01"></line>
+                    </svg>
+                </div>
+                <h3 class="mt-6 text-gray-400">Customizable</h3>
+                <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">Tailor your landing page's
+                    look
+                    and feel, from the color scheme to the font size, to the design of the page.
+                </p>
+            </div>
+
+
+            <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+                <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                    style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
+                    </svg>
+                </div>
+                <h3 class="mt-6 text-gray-400">Fast Performance</h3>
+                <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">We build our templates for
+                    speed in mind, for super-fast load times so your customers never waver.
+                </p>
+            </div>
+
+
+            <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+                <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                    style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4"></path>
+                        <line x1="14.5" y1="5.5" x2="18.5" y2="9.5"></line>
+                        <polyline points="12 8 7 3 3 7 8 12"></polyline>
+                        <line x1="7" y1="8" x2="5.5" y2="9.5"></line>
+                        <polyline points="16 12 21 17 17 21 12 16"></polyline>
+                        <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
+                    </svg>
+                </div>
+                <h3 class="mt-6 text-gray-400">Fully Featured</h3>
+                <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
+                    Everything you need to
+                    succeed
+                    and launch your landing page, right out of the box. No need to install anything else.
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"
+            style="background-image: linear-gradient(to right top, rgba(79, 70, 229, 0.2) 0%, transparent 50%, transparent 100%); border-color: rgba(92, 79, 240, 0.2);">
+        </div>
+        <div class="absolute bottom-0 right-0 z-0 h-1/3 w-full"
+            style="background-image: linear-gradient(to left top, rgba(220, 38, 38, 0.2) 0%, transparent 50%, transparent 100%); border-color: rgba(92, 79, 240, 0.2);">
+        </div>
+
+    </section>
+</div>
+
+
+
+<!-- footer -->
+ 
+
+<footer class=" rounded-lg shadow bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Flowbite</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
+                <li>
+                    <a href="whyUs.html" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="PrivacyPolicy.html" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="PrivacyPolicy.html" class="hover:underline me-4 md:me-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+        <span class="block text-sm  sm:text-center text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+    </div>
+
+</footer>
+
+
+
+  </body>
+</html>

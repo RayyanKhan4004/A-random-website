@@ -1,0 +1,21 @@
+{
+  "name": "tailwindpostcss",
+  "version": "1.0.0",
+  "description": "Complete Installation of the Tailwind css by using NPM(node package manager)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.11"
+  },
+  "dependencies": {
+    "vite": "^5.2.10"
+  }
+}
