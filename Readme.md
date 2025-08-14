@@ -14,3 +14,4 @@ scripts
 `dev` : "vite"
 
 at last run `npm run dev`to start the server.
+:) 
