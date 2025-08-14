@@ -13,5 +13,6 @@ _5_ `npm install vite`;
 scripts
 `dev` : "vite"
 
-at last run `npm run dev`to start the server.
+at last run `npm run dev`to start the server
 :) 
+
